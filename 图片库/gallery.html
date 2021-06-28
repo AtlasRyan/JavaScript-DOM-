@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen" />
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="images/scenery (1).jpg" onclick="showPic(this);return false;" title="An orange mountain">Orange Mountain</a>
+        </li>
+        <li>
+            <a href="images/scenery (2).jpg" onclick="showPic(this);return false;" title="A green mountain">Green Mountain</a>
+        </li>
+        <li>
+            <a href="images/scenery (3).jpg" onclick="showPic(this);return false;" title="A purple mountain">purple Mountain</a>
+        </li>
+        <li>
+            <a href="images/scenery (4).jpg" onclick="showPic(this);return false;" title="A black mountain">Black Mountain</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="images/placeholder.gif" alt="my image gallery">
+    <p id="description">Choose an image</p>
+    <script type="text/javascript" src="scripts/showPic.js"></script>
+</body>
+</html>
